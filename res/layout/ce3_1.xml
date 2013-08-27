@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/showcase_gallery"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#33B5E5"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:id="@+id/layce3_1_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/listitembgf"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/gear"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/games"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F15832"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:text="@string/games_desc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layce3_1_2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/listitembgf"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/gear"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/mods"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F15832"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:text="@string/mods_desc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layce3_1_3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/listitembgf"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/gear"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/levels"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F15832"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:text="@string/levels_desc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layce3_1_4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/listitembgf"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/gear"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/assets"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F15832"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:text="@string/assets_desc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layce3_1_5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/listitembgf"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/gear"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/misc"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F15832"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:text="@string/misc_desc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

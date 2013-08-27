@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array translatable="false"
+        name="languages">
+        <item>English</item>
+        <item>Deutsch</item>
+        <item>Русский</item>
+        </string-array>
+        
+        <string-array translatable="false"
+        name="tags">
+        <item>en</item>
+        <item>de</item>
+        <item>ru</item>
+        </string-array>
+        
+</resources>

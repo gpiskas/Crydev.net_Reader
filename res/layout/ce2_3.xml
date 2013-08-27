@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/sandbox2_editor"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#33B5E5"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:id="@+id/layce2_3_1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/listitembgf"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/gear"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/level_design"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F15832"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:text="@string/level_design_desc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layce2_3_2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/listitembgf"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/gear"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/game_design"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F15832"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:text="@string/game_design_desc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layce2_3_3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/listitembgf"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/gear"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/animation"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F15832"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:text="@string/animation_desc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layce2_3_4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/listitembgf"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/gear"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/ai"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F15832"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:text="@string/ai_desc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layce2_3_5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/listitembgf"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/gear"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/flowgraph"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F15832"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:text="@string/flowgraph_desc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layce2_3_6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/listitembgf"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/gear"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/tools_support"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#F15832"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="3"
+                android:paddingLeft="4dp"
+                android:singleLine="false"
+                android:text="@string/tools_support_desc"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- titles -->
+    <string name="title_crydev">Crydev.net Reader</string>
+    <string name="title_news">Neuigkeiten</string>
+    <string name="title_about">Über</string>
+    <string name="title_forum">Forum</string>
+    <string name="title_thread">Thread</string>
+    <string name="title_bookmarks">Lesezeichen</string>
+    <string name="title_ce3">Forum - CryEngine 3</string>
+    <string name="title_ce2">Forum - CryEngine 2</string>
+    <string name="title_login">Login Daten</string>
+    <string name="title_reply">Antwort Schreiben</string>
+    <string name="title_prefs">Einstellungen</string>
+
+    <!-- menus -->
+    <string name="home">Hauptmenü</string>
+    <string name="refresh">Aktualisieren</string>
+    <string name="bookmark">Merken</string>
+
+    <!-- Crydev -->
+    <string name="connection_error">Verbindungsfehler!</string>
+    <string name="try_again_later">Bitte versuchen Sie es später noch einmal.</string>
+    <string name="exit">Verlassen</string>
+    <string name="retry">Wiederholen</string>
+    <string name="connected">Verbunden!</string>
+    <string name="app_thread">Applikations Thread</string>
+    <string name="preferences">Einstellungen</string>
+
+    <!-- Prefs -->
+    <string name="current_user">Aktueller Nutzer: </string>
+    <string name="remember_login">Login Merken</string>
+    <string name="keep_screen_on">Bildschirm anlassen</string>
+    <string name="keep_screen_on_desc">Bildschirm anlassen beim Durchstöbern der Foren.</string>
+    <string name="signatures">Forum Signatur Wechseln</string>
+    <string name="signatures_desc">Zeige Benutzer signatur unter jedem Beitrag.</string>
+    <string name="login_saved">Login Daten Gespeichert</string>
+    <string name="login_deleted">Login Daten Gelöscht</string>
+    <string name="language">Sprache</string>
+    <string name="language_desc">Sprache wählen</string>
+
+    <!-- About -->
+    <string name="about_author">Autor: George Piskas</string>
+    <string name="about_version">v1.2.1</string>
+    <string name="about_email">geopiskas@gmail.com</string>
+    <string name="about_please">Bitte melden Sie Bugs oder Anregungen an die obige Adresse. Vergessen Sie nicht Ihre Bewertung abzugeben! Alternativ können Sie Ihre Antwort im App Thread posten.</string>
+    <string name="about_text">Crydev.net Reader ermöglicht Ihnen den Zugriff und das Durchsuchen Ihrer Lieblings-Webseite von Ihrem Android-Smartphone. News, Forum und vieles mehr!</string>
+    <string name="translation">Übersetzung: \nAlex Bernal - Deutsch\nЯрыгина Евгения - Русский</string>
+
+    <!-- Utils -->
+    <string name="read_more">Lesen Sie Mehr</string>
+    <string name="video_link">Video Ansehen</string>
+    <string name="bookmarked">Gemerkt!</string>
+    <string name="bookmark_deleted">Gelöscht!</string>
+
+    <!-- NewsHome -->
+    <string name="loading">Wird Geladen…</string>
+
+    <!-- Bookmarks -->
+    <string name="bookmarks_empty">Lesezeichen sind leer!</string>
+    <string name="something_worng">Etwas ist schiefgelaufen…</string>
+    <string name="bookmark_delete">Lesezeichen Löschen</string>
+    <string name="bookmark_delete_desc">Sind Sie sicher, dass Sie dieses Lesezeichen löschen möchten?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+    <!-- ForumHome -->
+    <string name="cryengine3">CryENGINE 3</string>
+    <string name="showcase3_sub">Unterforen: Spiele, Mods, Levels, Assets, Verschiedenes</string>
+    <string name="ce3_sub">Unterforen: Programmierung \&amp; Scripting, CryMono, Scaleform, Asset Erstellung, Allgemeine CE3 Diskussion, Rekrutierung</string>
+    <string name="sandbox3_sub">Unterforen: Level Design, Game Design, Partikel \&amp; Materialien, Animation \&amp; Trackview, KI \&amp; Intelligente Objekte, Flowgraph, Tools Support, Neueste Builds</string>
+    <string name="cryengine2">CryENGINE 2</string>
+    <string name="showcase2_sub">Unterforen: Mods, Levels, Assets, Verschiedenes</string>
+    <string name="ce2_sub">Unterforen: Anfänger Fragen, Programmierung \&amp; Scripting, Asset Erstellung, Rekrutierung</string>
+    <string name="sandbox2_sub">Unterforen: Level Design, Game Design, Animation, KI, Flowgraph, Tools Feedback \&amp; Support</string>
+    <string name="community">Gemeinschaft</string>
+    <string name="website_support">Website Unterstützung</string>
+    <string name="website_support_desc">Unterstützung bei Website Problemen, und teilen Sie Uns Ihre Meinung mit! Dies ist nicht die Rubrik für SDK verwandte Themen.</string>
+    <string name="general_discussion">Allgemeine Diskussion</string>
+    <string name="general_discussion_desc">Diskutieren Sie Themen ohne Bezug aufs Modding.</string>
+    <string name="tutorials">Tutorenkurs</string>
+    <string name="tutorials_desc">Helfen Sie anderen indem Sie Ihre Tutorenkurs hier teilen.</string>
+
+    <!-- Ce2_1 -->
+    <string name="showcase_gallery">Showcase Galerie</string>
+    <string name="mods">Mods</string>
+    <string name="mods_desc">Verwenden Sie diese Rubrik, um Ihre Modifikationen zu zeigen.</string>
+    <string name="levels">Levels</string>
+    <string name="levels_desc">Verwenden Sie diese Rubrik, um Ihre Levels zu zeigen.</string>
+    <string name="assets">Assets</string>
+    <string name="assets_desc">Verwenden Sie diese Rubrik, um Ihre Assets zu zeigen.</string>
+    <string name="misc">Verschiedenes</string>
+    <string name="misc_desc">Verwenden Sie diese Rubrik um diverse Projekte, darunter Fan Art, Configs, und TOD\'S zu zeigen.</string>
+
+    <!-- Ce2_2 -->
+    <string name="ce2_development">CE2 Entwicklung</string>
+    <string name="beginner_questions">Anfänger Fragen</string>
+    <string name="beginner_questions_desc">Für alles, was im Zusammenhang der Mod Entwicklung nicht in den folgenden Kategorien passt.</string>
+    <string name="programming">Programmierung</string>
+    <string name="programming_desc">Nutzen Sie dieses Forum für Fragen zu C++, Lua, XML und anderen Sprachen die während des Crysis Modding eingesetzt werden.</string>
+    <string name="asset_creation">Asset Erstellung</string>
+    <string name="asset_creation_desc">Themen über 3DS Max, Softimage, Maya, Photoshop, und verschiedene andere Softwarepakete.</string>
+    <string name="recruitment">Rekrutierung</string>
+    <string name="recruitment_desc">Auf der Suche nach einem Entwickler für Ihre Mod, oder suchen Sie einen Ort um für Ihre Fähigkeiten zu werben? Suchen Sie nicht weiter!</string>
+
+    <!-- Ce2_3 -->
+    <string name="sandbox2_editor">Sandbox 2 Editor</string>
+    <string name="level_design">Level Design</string>
+    <string name="level_design_desc">Alle Level Design Themen sollten in diesem Forum gepostet werden, einschließlich Terrain, Effekte und andere damit zusammenhängende Fragen.</string>
+    <string name="game_design">Game Design</string>
+    <string name="game_design_desc">Alle Game Design Themen sollten in diesem Forum gepostet werden, einschließlich SP / MP und andere verwandte Fragen.</string>
+    <string name="animation">Animation</string>
+    <string name="animation_desc">Themen jeglicher Art der Erstellung von Animationen oder Filmsequenzen mit Sandbox 2 sollten in diesem Forum gepostet werden.</string>
+    <string name="ai">K.I.</string>
+    <string name="ai_desc">Auf der Suche nach Künstlicher Intelligenz? Wegpunkt Fragen? Hier posten!</string>
+    <string name="flowgraph">Flowgraph</string>
+    <string name="flowgraph_desc">Fragen zu Flowgraphs? Hier ist der richtige Ort!</string>
+    <string name="tools_support">Tools Support</string>
+    <string name="tools_support_desc">Wenn Sie Probleme mit dem Sandbox-Editor oder anderen mitgelieferten Tools haben, lassen Sie es uns hier wissen.</string>
+
+    <!-- Ce3_1 -->
+    <string name="games">Spiele</string>
+    <string name="games_desc">Verwenden Sie dieses Forum um Ihre CE3 Spiele zu zeigen.</string>
+
+    <!-- Ce3_2 -->
+    <string name="ce3_development">CE3 Entwicklung</string>
+    <string name="programming_ce3_desc">Nutzen Sie dieses Forum für Fragen zu C++, Lua, XML und anderen Sprachen die während der CryENGINE Entwicklung eingesetzt werden. Unterforum: CryMono</string>
+    <string name="scaleform">Scaleform</string>
+    <string name="scaleform_desc">Wenn Sie Hilfe mit Scaleform, HUD Entwicklung, UI Emulation / Aktionen suchen, ist dies der richtige Ort!</string>
+    <string name="ce3_discussion">CE3 Diskussion</string>
+    <string name="ce3_discussion_desc">Gerade erst mit CE3 Angefangen? Auf der Suche nach Informationen über CE3 und / oder CE3 Projekten? Fragen Sie hier!</string>
+
+    <!-- Ce3_3 -->
+    <string name="sandbox3_editor">Sandbox 3 Editor</string>
+    <string name="particles">Partikel \&amp; Materialien</string>
+    <string name="particles_desc">Fragen zu Partikel-Effekten und Material Bearbeitung sollten hier gestellt werden.</string>
+    <string name="animation_tv">Animationen \&amp; Filmsequenzen</string>
+    <string name="animation_tv_desc">Themen jeglicher Art der Erstellung von Animationen oder Filmsequenzen mit Sandbox 3 sollten in diesem Forum gepostet werden.</string>
+    <string name="ai_smart">KI \&amp; Intelligente Objekte</string>
+    <string name="ai_smart_desc">Auf der Suche nach Künstlicher Intelligenz? Wegpunkt Fragen? Hier posten!</string>
+
+    <!-- LoginDetails -->
+    <string name="fill_fields">Bitte füllen Sie die angegebenen Felder aus.</string>
+    <string name="invalid_login">Ungültiger Login Daten</string>
+    <string name="invalid_login_desc">Sie haben einen falschen Benutzernamen oder ein falsches Passwort angegeben.</string>
+    <string name="ok">OK</string>
+    <string name="username">Benutzername</string>
+    <string name="password">Passwort</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="clear">Löschen</string>
+    <string name="save">Speichern</string>
+
+    <!-- PostReply -->
+    <string name="write_reply">Schreiben Sie Ihre Antwort…</string>
+    <string name="change_user">Nutzer Wechseln</string>
+    <string name="post_reply">Antwort Veröffentlichen</string>
+    <string name="reply_posted">Antwort Veröffentlicht!</string>
+
+</resources>
